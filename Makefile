@@ -26,7 +26,7 @@ $(BIN):
 $(OBJ):
 	mkdir $@
 
-run: $(EXE)
+run: all
 	./$(BIN)/$(EXE)
 
 clean:
